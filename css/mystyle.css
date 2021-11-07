@@ -10,12 +10,17 @@ header {
     max-width: 45rem;
     display: block;
 }
+img {
+    width: 50%;
+    height: 50%;
+}
 body {
     font-size: 16px;
     line-height: 1.5;
     font-family: san-serif;
     color: slategrey;
     height: 100%;
+    text-align: center;
 }
 
 h1 {
