@@ -10,10 +10,9 @@ header {
     max-width: 45rem;
     display: block;
 }
-img {
+header img {
     width: 50%;
     height: 50%;
-    text-align: center;
 }
 body {
     font-size: 16px;
