@@ -28,7 +28,8 @@ main img {
 }
 
 footer {
-    background-color: tealS;
+    background-color: teal;
+    text-align: center;
 }
 
 #copyright {
