@@ -1,0 +1,12 @@
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed rgb(39, 53, 83);
+    background-color: #eee;
+    color: rgb(84, 107, 94);
+    font-style: italic;
+}
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
