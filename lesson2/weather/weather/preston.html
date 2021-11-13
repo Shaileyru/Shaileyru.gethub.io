@@ -3,20 +3,23 @@
     <head>
         <link rel="stylesheet" href="../css/prestonmedium.css">
         <link rel="stylesheet" href="../css/prestonsmall.css">
+        <link rel="stylesheet" href="../css/prestonlarge.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Weather Preston</title>
     </head>
     <body>
         <header>
-            <img src="../image/1975135.png" alt="Logo Icon"> 
+            <picture>
+                <img src="../image/1975135.png" alt="Logo Icon"> 
+            </picture>
             <h1>Get Your Weather</h1>
-            <h2>We're all about that Weather</h2>
-            <h3 class="site">www.GetYourWeather.com</h3>
+            <h2 class="motto">We're all about that Weather</h2>
+            <h3 class="site-name">www.GetYourWeather.com</h3>
         </header>
-        <nav>
-            <button onclick="toggleMenu()">=</button>
-            <ul class="nav-list">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776</button>
+            <ul id="Nav" class="hide">
                  <li><a href="#">Menu</a></li>
                  <li><a href="#">Home</a></li>
                   <li><a href="#">Preston</a></li>
@@ -39,5 +42,6 @@
                 <a href="https://www.byui.edu/online" target="blank">BYUI Online Learning</a>
             </p>
         </footer>
+        <script src="../js/dates.js"></script>
     </body>
 </html>
