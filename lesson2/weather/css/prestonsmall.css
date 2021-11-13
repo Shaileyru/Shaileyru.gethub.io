@@ -87,7 +87,7 @@ main{
 }
 footer{
     text-align: center;
-    background-color: teal;
+    background-color: rgb(4, 119, 119);
     color: white;
     border-radius: 10px;
     margin: 0 auto;

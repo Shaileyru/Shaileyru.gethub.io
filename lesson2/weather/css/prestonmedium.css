@@ -22,14 +22,14 @@ header {
     padding: 0.5em;
     text-align: center;
     color: rgb(0, 6, 8);
-    background-color: teal;
+    background-color: rgb(4, 119, 119);
     border-radius: 30px;
 }
 
 footer {
     padding: 1em;
     color: rgb(0, 6, 8);
-    background-color: teal;
+    background-color: rgb(4, 119, 119);
     border-radius: 30px;
     text-align: center;
     bottom: 0;
