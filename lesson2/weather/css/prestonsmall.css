@@ -21,9 +21,9 @@ header img {
 body {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Roboto", san-serif;
-    color: slategrey;
-    background-color: coral;
+    font-family: san-serif;
+    color: rgb(174, 206, 216);
+    background-color: rgb(107, 95, 90);
     height: 100%;
     text-align: center;
     max-width: 50%;
@@ -65,11 +65,11 @@ nav ul li a {
 }
 
 nav ul li.active a{
-    background-color: rgba(0, 0, 0, 0.2); color: #fff;
+    background-color: rgba(0, 0, 0, 0.2); color: rgb(197, 214, 240);
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0, 0.4); color: #fff;
+    background-color: rgba(0,0,0, 0.4); color: rgb(197, 214, 240);
 }
 
 nav ul.hide {

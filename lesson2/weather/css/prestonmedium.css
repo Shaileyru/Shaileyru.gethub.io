@@ -1,12 +1,12 @@
 @media only screen and (min-width: 35rem) {
 html {
-    background-color: white;
+    background-color: rgb(189, 185, 175);
 }
 
 body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #EBF6F5;
+    background-color: #a6d5d8;
     padding: 5px 25px;
 }
 
