@@ -1,0 +1,139 @@
+
+header {
+    text-align: center;
+    background-color: rgb(4, 119, 119);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1%;
+    max-width: 45em;
+    display: flex;
+    flex-flow: column;
+}
+header img {
+    width: 50%;
+    height: auto;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", san-serif;
+    color: slategrey;
+    background-color: coral;
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+   font-size: 1.5em;
+   margin: 0.15em;
+}
+h2 {
+    font-size: 1em;
+    border-bottom: 1px solid #9999;
+}
+nav {
+    clear: both;
+    display: block;
+    list-style-type: none;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size:  1.6rem;
+}
+nav ul {
+    font-size: 1.5em;
+    background-color: rgb(219, 199, 171);
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-list li:first-child {
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    font-size: .8em;
+    background: linear-gradient(90deg, transparent,) top / var(--d, 0) 10px no-repeat;
+    transition: o.2s;
+}
+ul a:hover {
+	background-color: #bbb;
+	color: #36454f; 
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.9em;
+}
+footer{
+    text-align: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 45em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:32.5em) {
+    header {
+        justify-content: space-around;
+    }
+    header,footer,main,nav {
+        font-size: 1em;
+    }
+    img {
+        width: 128px;
+    }
+    .nav-list {
+        display: flex;
+    }
+    .nav-list li {
+        flex: 1 1 auto;
+        display: block;
+    }
+    .nav-list li :first-child {
+        display: none;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
