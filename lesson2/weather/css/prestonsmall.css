@@ -1,9 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Work+Sans:wght@300&display=swap');
 
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+  
+header {
+    text-align: center;
+    background-color: rgb(4, 119, 119);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1%;
+    max-width: 45em;
+    display: flex;
+    flex-flow: column;
+}
+header img {
+    width: 50%;
+    height: auto;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", san-serif;
+    color: slategrey;
+    background-color: coral;
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
 
+h1 {
+   font-size: 1.5em;
+   margin: 0.15em;
+}
+h2 {
+    font-size: 1em;
+    border-bottom: 1px solid #9999;
+}
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
@@ -12,7 +46,7 @@ nav button {
 }
 
 nav {
-    background-color: #D2DAD9;
+    background-color: rgb(219, 199, 171);
     font-family: Work Sans, sans-serif;
 }
 
@@ -26,7 +60,7 @@ nav ul li a {
     display: block;
     padding:  .8rem 2%;
     text-decoration: none;
-    color: #0B84A8;
+    color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -41,10 +75,23 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
-
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.9em;
+}
+footer{
+    text-align: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 45em;
+}
+
