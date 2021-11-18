@@ -48,6 +48,7 @@ nav button {
 nav {
     background-color: rgba(243, 205, 152, 0.596);
     font-family: Work Sans, sans-serif;
+    color: black;
 }
 
 nav ul {
@@ -102,7 +103,7 @@ nav ul.hide {
     opacity: 0.8;
 }
 .day {
-    background-color: rgba(90, 83, 59, 0.671);
+    background-color: rgba(221, 206, 158, 0.418);
     width: 100%;
     border:1px solid rgb(57, 58, 49);
     text-align: center;
@@ -112,9 +113,9 @@ nav ul.hide {
     padding: 8px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
-    background-color: rgb(126, 128, 90);
+    background-color:rgba(243, 205, 152, 0.596);
     text-align: center;
-    border:1px solid rgb(231, 231, 201);
+    border:1px solid rgb(126, 128, 90);
     color: black;
 }
 img.weather {
