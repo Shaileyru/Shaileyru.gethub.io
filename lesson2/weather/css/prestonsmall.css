@@ -84,11 +84,6 @@ nav ul.hide {
       width: 100%;
       height: fit-content;
   }
-.weatherSummery picture {
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
 .weatherSummery {
     display: flex;
     align-items: center;
@@ -144,7 +139,7 @@ img.weather {
 }
 .articleImg {
     max-width: 25em; 
-    height: 25em;
+    height: fit-content;
     margin: 2em;
 }
 .article p {
