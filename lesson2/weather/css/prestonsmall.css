@@ -121,7 +121,7 @@ nav ul.hide {
     text-align: center;
     border:1px solid rgb(126, 128, 90);
 }
-img.wather {
+img.weather {
     border-radius: 100px;
     padding: .5em;
     width: 64px;
@@ -142,7 +142,7 @@ img.wather {
     margin: 2em;
     padding: 1em;
 }
-.article img {
+.articleImg {
     max-width: 25em; 
     height: 25em;
     margin: 2em;
