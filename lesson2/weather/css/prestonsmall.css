@@ -23,7 +23,7 @@ body {
     line-height: 1.5;
     font-family: san-serif;
     color: rgb(174, 206, 216);
-    background-color: rgb(158, 146, 141);
+    background-color: rgb(240, 96, 35);
     height: 100%;
     text-align: center;
     max-width: 50%;
@@ -80,6 +80,10 @@ nav ul.hide {
     display: table;
     clear: both;
   }
+  .landscape-imge {
+      width: 100%;
+      height: fit-content;
+  }
 .weatherSummery picture {
     width: 100%;
     height: auto;
@@ -96,14 +100,14 @@ nav ul.hide {
     position: absolute;
     top: 5em;
     right: 10em;
-    background: cornflowerblue;
-    border: 4px solid rgb(4, 119, 119);
+    background: rgb(120, 207, 241);
+    border: 4px solid rgb(5, 136, 136);
     padding: 4em;
-    box-shadow: 0 .5em .5em 0 black;
+    box-shadow: 0 .5em .5em 0 rgb(0, 0, 0);
     opacity: 0.8;
 }
 .day {
-    background-color: rgb(245, 225, 160);
+    background-color: rgb(212, 196, 142);
     width: 100%;
     border:1px solid rgb(57, 58, 49);
     text-align: center;
@@ -113,7 +117,7 @@ nav ul.hide {
     padding: 8px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
-    background-color: rgb(139, 139, 129);
+    background-color: rgb(196, 196, 179);
     text-align: center;
     border:1px solid rgb(126, 128, 90);
 }
