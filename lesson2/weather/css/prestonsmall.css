@@ -112,9 +112,10 @@ nav ul.hide {
     padding: 8px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
-    background-color: rgb(231, 231, 201);
+    background-color: rgb(126, 128, 90);
     text-align: center;
-    border:1px solid rgb(126, 128, 90);
+    border:1px solid rgb(231, 231, 201);
+    color: black;
 }
 img.weather {
     border-radius: 100px;
