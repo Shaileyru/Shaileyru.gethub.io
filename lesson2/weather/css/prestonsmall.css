@@ -128,11 +128,13 @@ img.weather {
     opacity: o.9;
 }
 .temp {
+    font-size: 2em;
     display: block;
     padding: 0 8px 8px;
     width: 64px;
     height: auto;
-    text-align: center
+    text-align: center;
+    color: black;
 }
 .article {
     display: grid;
