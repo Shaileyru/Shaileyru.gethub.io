@@ -47,7 +47,6 @@ body {
     display: flex;
     flex-flow: column;
 }
-
 h1,h2 {
    font-size: 2em;
    margin: 0.15em;
@@ -59,14 +58,12 @@ nav button {
     border: none;
     font-size:  2rem;
 }
-
 nav {
     background-color: rgba(243, 205, 152, 0.596);
     font-family: Work Sans, sans-serif;
     color: black;
     border-radius: 30px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
