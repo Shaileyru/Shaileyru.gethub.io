@@ -14,19 +14,21 @@
             <picture>
                 <img src="../image/1975135.png" alt="Logo Icon"> 
             </picture>
-            <h1>Get Your Weather</h1>
-            <h2 class="motto">We're all about that Weather</h2>
-            <h3 class="site-name">www.GetYourWeather.com</h3>
+            <section class="headings">
+                <h1>Get Your Weather</h1>
+                <h2 class="motto">We're all about that Weather</h2>
+                <h3 class="site-name">www.GetYourWeather.com</h3>
+            </section>
         </header>
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776</button>
-            <ul id="Nav" class="hide">
-                 <li><a href="#">Home</a></li>
-                  <li><a href="#">Preston</a></li>
-                 <li><a href="#">Soda Springs</a></li>
-                 <li><a href="#">Fish Haven</a></li>
-                 <li><a href="#">Storm Center</a></li>
-                 <li><a href="#">Gallery</a></li>
+            <ul id="primartNav" class="hide">
+                <li><a class="btn" href="#">Home</a></li>
+                <li><a class="btn active" href="preston.html">Preston</a></li>
+                <li><a class="btn" href="#">Soda Springs</a></li>
+                <li><a class="btn" href="#">Fish Haven</a></li>
+                <li><a class="btn" href="#">Storm Center</a></li>
+                <li><a class="btn" href="#">Gallery</a></li>
              </ul>
          </nav>
         <main>
@@ -37,11 +39,11 @@
                     </picture>
                     <section class="overlay">
                         <h2>Today's Weather</h2>
-                        <p>Currently: 38°F <span class="temp"></span></p>
+                        <p>Currently: 38°F <span id="temperture"></span></p>
                         <p>High: 45°F</p>
-                        <p>Wind Chill: <span class="windChill"></span> </p>
+                        <p>Wind Chill: <span id="windChill"></span> </p>
                         <p>Humidity: 50%</p>
-                        <p>Wind Speed: <span class="windSpeed">8</span> mph</p>
+                        <p>Wind Speed: <span id="windSpeed">8</span> mph</p>
                     </section>
                 </div>
                 <div class=forcast>
