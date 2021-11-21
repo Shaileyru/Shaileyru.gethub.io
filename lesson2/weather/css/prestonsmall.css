@@ -112,8 +112,6 @@ img {
     justify-content: center;
     margin: 2em;
     padding: 1em;
-}
-.overlay {
     position: absolute;
     top: 5em;
     right: 10em;
