@@ -176,6 +176,9 @@ main{
     grid-template-columns: 1fr;
     font-size: 0.9em;
 }
+.contact {
+    text-align: center;
+}
 footer{
     text-align: center;
     background-color:  rgb(4, 119, 119);
