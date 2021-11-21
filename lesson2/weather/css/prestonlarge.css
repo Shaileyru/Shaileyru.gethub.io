@@ -1,35 +1,28 @@
-/* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
     nav button {
         display: none;
     }
-
     nav ul.hide {
         display: block;
     }
-
     nav ul {
         margin-left: 2%;
     }
-
     nav ul li {
         float: left;
     }
-
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .6rem 1rem;
     }
-
     .total-image {
         margin: 10px auto;
         max-width: 100%;
         height: auto;
         object-fit: cover
     }
-
     .weatherSummary {
         position: absolute;
         top: 40px;
@@ -38,24 +31,20 @@
         padding: 1rem;
         opacity: 0.7;
     }
-
     .articleImg {
         float: right;
         width: 50%;
         height: 50%;
     }
-
     div .text {
         display: inline-block;
         vertical-align: top;
     }
-
     .text {
         font-family: 'Work Sans', sans-serif;
         font-size: 1.3em;
         padding: 0.5rem;
     }
-
     .contact-info {
         padding: 0.5rem;
         display: flex;
@@ -65,21 +54,16 @@
         flex-wrap: wrap;
         gap: 15px;
     }
-
     .contact {
         order: 2;
     }
-
     .first-section {
         position: relative;
         height: auto;
         width: 100%;
     }
-
     #flex {
         display: flex;
     }
 
 }
-
-/*end large */
