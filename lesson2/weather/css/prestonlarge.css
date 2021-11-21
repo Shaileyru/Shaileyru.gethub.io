@@ -30,7 +30,7 @@
         object-fit: cover
     }
 
-    .weather-summary {
+    .weatherSummary {
         position: absolute;
         top: 40px;
         left: 20px;
@@ -39,7 +39,7 @@
         opacity: 0.7;
     }
 
-    .article-img {
+    .articleImg {
         float: right;
         width: 50%;
         height: 50%;
@@ -68,10 +68,6 @@
 
     .contact {
         order: 2;
-    }
-
-    .map {
-        order: 1;
     }
 
     .first-section {

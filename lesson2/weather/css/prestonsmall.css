@@ -1,26 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Work+Sans:wght@300&display=swap');
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* {-moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+      box-sizing: border-box;}
+  
+header {
+    text-align: center;
+    background-color: rgb(4, 119, 119);
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 1%;
+    max-width: 45em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+header img {
+    width: 50%;
+    height: auto;
+}
+.motto {
+    font-size: 1.5em;
+    order: 3;
+}
+#banner {
+    background-color: rgb(129, 129, 115);
+    padding: 3px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 30px;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: san-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(136, 130, 109, 0.76);
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
 }
 
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+h1,h2 {
+   font-size: 2em;
+   margin: 0.15em;
+   border-bottom: 1px solid rgb(25, 25, 27);
 }
-
 nav button {
-    margin: .2rem 2%;
+    margin: .5rem 2%;
     background-color: transparent;
     border: none;
-    font-size: 1.7rem;
+    font-size:  2rem;
 }
 
 nav {
-    background-color: #D2DAD9;
+    background-color: rgba(243, 205, 152, 0.596);
     font-family: Work Sans, sans-serif;
+    color: black;
+    border-radius: 30px;
 }
 
 nav ul {
@@ -28,186 +72,123 @@ nav ul {
     padding: 0;
     margin: 0;
 }
-
+ul {
+    list-style-type: none;
+}
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    padding:  .8rem 2%;
     text-decoration: none;
-    color: #0B84A8;
+    color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: rgb(197, 214, 240);
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(197, 214, 240);
 }
 
 nav ul.hide {
     display: none;
 }
-
-.weather-summary {
-    background: radial-gradient(#eee, #4567aa);
-    padding: 1rem;
-    opacity: 0.9;
-    height: auto;
+.active,
+.btn:hover {
+    background-color: rgb(5, 136, 136);
+    color: white;
 }
-
-.text {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.3em;
-    padding: 0.5rem;
-}
-
-html {
-    background-color: white;
-}
-
-body {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #EBF6F5;
-    padding: 5px 25px;
-}
-
-h1,
-h2 {
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 1.8em;
-}
-
-h3 {
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 1.4em;
-    margin-bottom: 5px;
-}
-
-header {
-    display: flex;
-    padding: 0.5em;
-    text-align: center;
-    color: rgb(0, 6, 8);
-    background-color: rgb(11, 132, 168);
-    border-radius: 30px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-
-footer {
-    padding: 1em;
-    color: rgb(0, 6, 8);
-    background-color: #0b84a8;
-    border-radius: 30px;
-    text-align: center;
-    bottom: 0;
-}
-
-p {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.2em;
-}
-
-nav {
-    border-radius: 30px;
-}
-
 img {
     max-width: 100%;
 }
-
-.logo-image {
-    padding: 0.5em;
-    
-}
-
-.motto {
-    font-size: 1.5em;
-    order: 3;
-}
-
-ul {
-    list-style-type: none;
-}
-
-
-.active,
-.btn:hover {
-    background-color: #0b84a8;
-    color: white;
-}
-
-.contact-info {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1em;
-}
-
-.social {
-    padding-top: 20px;
-}
-
-.map {
-    padding-top: 1em;
-    height: 100%;
-}
-
-.flex-col {
-    background-color: #D2DAD9;
+.landscape-imge {
     width: 100%;
+    height: fit-content;
+  }
+.weatherSummery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    padding: 1em;
+}
+.overlay {
+    position: absolute;
+    top: 5em;
+    right: 10em;
+    background: rgb(6, 67, 92);
+    border: 4px solid rgb(5, 136, 136);
+    padding: 4em;
+    box-shadow: 0 .5em .5em 0 rgb(0, 0, 0);
+    opacity: 0.8;
+}
+.day {
+    background-color: rgba(211, 200, 167, 0.63);
+    width: 100%;
+    border:1px solid rgb(57, 58, 49);
     text-align: center;
 }
-
-.col-head {
+.weekDay {
     display: block;
-    padding: 5px;
-    border-bottom: 1px solid #333;
+    padding: 8px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    background-color:rgba(243, 205, 152, 0.596);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    font-size: 1em;
-    font-family: 'Mochiy Pop One', sans-serif;
+    border:1px solid rgb(128, 122, 107);
+    color: black;
 }
-
-img.sun {
+img.weather {
     border-radius: 100px;
-    padding: 0.25rem;
+    padding: .5em;
     width: 64px;
     height: auto;
-    opacity: 0.9;
+    opacity: o.9;
 }
-
-.data {
+.temp {
+    font-size: 1.5em;
     display: block;
-    padding: 0 5px 5px;
-    font-size: 1em;
+    padding: 0 8px 8px;
+    width: 64px;
+    height: auto;
     text-align: center;
+    color: black;
 }
-
-#banner {
-    background-color: rgb(241, 241, 154);
-    padding: 3px;
+.article {
+    background-color: rgb(6, 67, 92);
+    margin: 2em;
+    padding: 1em;
+}
+.articleImg {
+    max-width: 25em; 
+    height: fit-content;
+    margin: 2em;
+}
+.article p {
+    align-items: baseline;
+    margin: 2em;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.9em;
+}
+footer{
     text-align: center;
-    font-weight: 600;
+    background-color:  rgb(4, 119, 119);
+    color: white;
     border-radius: 30px;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 45em;
+    bottom: 0;
 }
-
-main figure.total-image {
-    width: 100%;
-    margin: 0 0 0;
-
-}
- main figure.total-image img {
-     width: 100%;
- }
-
-/*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+  }
+
