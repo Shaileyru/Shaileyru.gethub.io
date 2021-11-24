@@ -1,12 +1,13 @@
 
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
 
 * {-moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
       box-sizing: border-box;}
-html {
-    background-color: rgb(212, 205, 195);
-}  
+  
 header {
     text-align: center;
     background-color: rgb(4, 119, 119);
@@ -19,7 +20,8 @@ header {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 header img {
     width: 50%;
@@ -31,9 +33,9 @@ header img {
 }
 #banner {
     background-color: rgb(129, 129, 115);
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 800;
     border-radius: 50px;
 }
 body {
@@ -49,7 +51,6 @@ body {
     display: flex;
     flex-flow: column;
     border-radius: 5px;
-    padding-right: 5px;
 }
 h1,h2 {
    font-size: 2em;
