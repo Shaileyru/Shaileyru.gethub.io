@@ -176,12 +176,12 @@ footer {
 }
 form fieldset {
     margin: 2rem 0;
-    border:  1px solid #0B84A8;
+    border:  1px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend {
-    color: #0B84A8;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-size: 1.5em;
@@ -189,8 +189,9 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #9c2c;
     font-size: 1em;
+    text-align: center;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
@@ -199,7 +200,7 @@ form label.top input, form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color:white;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
@@ -212,7 +213,7 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color: #0B84A8;
+    background-color:rgb(5, 136, 136);
     color: white;
     border-radius: 1rem;
     padding: .75rem;
@@ -221,7 +222,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(6, 67, 92) 6px;
 }
 
 form label.top input:required:valid {
@@ -230,7 +231,7 @@ form label.top input:required:valid {
 
 label.flexly {
      display: block;
-     color: #9c2c13;
+     color: rgb(6, 67, 92);
 }
 
 .userDanger {
