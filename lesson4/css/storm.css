@@ -13,7 +13,7 @@ header {
     background-color: rgb(4, 119, 119);
     color: white;
     border-radius: 20px;
-    margin-top: 10px;
+    margin: 20px;
     padding: 5%;
     max-width: 45em;
     display: flex;
@@ -208,7 +208,7 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color:white;
     
 }
 form input.submitBtn {
