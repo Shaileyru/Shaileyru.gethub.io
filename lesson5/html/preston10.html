@@ -46,48 +46,50 @@
                 </picture>
 
             <div class="weatherSummary">
-                <section class=weather-summary>
-                    <h3>Weather Summary</h3>
-                    <p>Currently: <span id="temperature">38</span>°F</p>
-                    <p>Wind Chill: <span id="windchill"></span></p>
-                    <p>High: 41°F</p>
-                    <p>Humidity: 50%</p>
-                    <p>Wind Speed: <span id="windspeed">10</span>mph</p>
+                <section class="weather-overlay">
+                    <h2>Weather Summary</h2>
+                    <table class="currentSum">
+                        <tr>
+                            <td class="right">Currently:</td><td class="value"><span class="colweight" id="current-cond"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="right">High:</td><td class="value"><span class="temp" id="temp-max"> &#176;F</span> </td>
+                        </tr>
+                        <tr>
+                            <td class="right">Wind Chill:</td><td class="value"><span class="colweight" id="chill"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="right">Humidity:</td><td class="value"><span id="humid"></span> %</td>
+                        </tr>
+                        <tr>
+                            <td class="right">Wind Speed:</td><td class="value"><span id="wind-speed"></span> mph</td>
+                        </tr>
+                    </table>
                 </section>
 
             </div>
 
-                <div class=day-forcast>
-                    <h1>
-                        Five Day Forecast
-                    </h1>
-                    <div id="flex">
-                        <div class="day">
-                            <span class="weekDay">Monday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
-                            <span class="temp">50°F</span>
-                        </div>
-                        <div class="day">
-                            <span class="weekDay">Tuesday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
-                            <span class="temp">55°F</span>
-                        </div>
-                        <div class="day">
-                            <span class="weekDay">Wednesday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
-                            <span class="temp">45°F</span>
-                        </div>
-                        <div class="day">
-                            <span class="weekDay">Thursday</span>
-                            <img class="weather" src="../image/rain.jpg" alt="rainy">
-                            <span class="temp">58°F</span>
-                        </div>
-                        <div class="day">
-                            <span class="weekDay">Friday</span>
-                            <img class="weather" src="../image/rain.jpg" alt="rainy">
-                            <span class="temp">62°F</span>
-                        </div>
-                    </div>
+                <div>
+                    <br>
+                    <section  class="day-forcast">
+                        <h3>5 Day Forecast</h3>
+                        <div id="forecastGrid"></div>
+                    </section>
+                    <br>
+                    <article class="article">
+                        <br>
+                        <img src="images/FoundersDay.jpg" alt="Founders day image" class="foundersDay">
+                        <br>
+                        <h2>Founders Day Fresco</h2>
+                        <br>
+                        <br>
+                        <p class="author">By Jamica Juarez</p>
+                            <br>
+                            <p class="paragraph">Content text goes here, Content text goes here, Content text goes here, Content text goes here. Content text goes here, Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here.Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here</p><br>
+                            <p class="paragraph">Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here Content text goes here. Content text goes here . Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. Content text goes here. </p>
+                            <br>
+                    </article>
+                    <br>
                 </div>
                 
                 <div class="text">
