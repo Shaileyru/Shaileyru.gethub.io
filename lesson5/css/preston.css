@@ -122,6 +122,21 @@ img {
     box-shadow: 0 .5em .5em 0 rgb(0, 0, 0);
     opacity: 0.8;
 }
+.weather-overlay {
+    justify-self: left;
+    top: .5em;
+    left: 3.5em;
+    padding: .5em;
+    background: radial-gradient(#f1f9f4, #E8EEF1);
+    border: 1px solid var(--accent2-color);
+}
+.right {
+    text-align: right;
+}
+.value {
+    color: #0d1c13;
+    font-weight: bold;
+}
 .day {
     background-color: rgba(211, 200, 167, 0.63);
     width: 100%;
