@@ -1,5 +1,7 @@
-
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
 
 * {-moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
@@ -9,7 +11,7 @@ header {
     text-align: center;
     background-color: rgb(4, 119, 119);
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 10px;
     padding: 1%;
     max-width: 45em;
@@ -17,7 +19,8 @@ header {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 header img {
     width: 50%;
@@ -29,25 +32,25 @@ header img {
 }
 #banner {
     background-color: rgb(129, 129, 115);
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    font-weight: 600;
-    border-radius: 30px;
+    font-weight: 800;
+    border-radius: 50px;
 }
 body {
     font-size: 16px;
     line-height: 1.5;
     font-family: san-serif;
     color: rgb(255, 255, 255);
-    background-color: rgba(136, 130, 109, 0.76);
+    background-color: rgba(66, 63, 50, 0.884);
     height: 100%;
     text-align: center;
     max-width: 50%;
     margin: 0 auto;
     display: flex;
     flex-flow: column;
+    border-radius: 5px;
 }
-
 h1,h2 {
    font-size: 2em;
    margin: 0.15em;
@@ -59,14 +62,12 @@ nav button {
     border: none;
     font-size:  2rem;
 }
-
 nav {
     background-color: rgba(243, 205, 152, 0.596);
     font-family: Work Sans, sans-serif;
     color: black;
-    border-radius: 30px;
+    border-radius: 5px;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -99,7 +100,7 @@ nav ul.hide {
 .active,
 .btn:hover {
     background-color: rgb(5, 136, 136);
-    color: white;
+    color: black;
 }
 img {
     max-width: 100%;
@@ -114,11 +115,7 @@ img {
     justify-content: center;
     margin: 2em;
     padding: 1em;
-}
-.overlay {
     position: absolute;
-    top: 5em;
-    right: 10em;
     background: rgb(6, 67, 92);
     border: 4px solid rgb(5, 136, 136);
     padding: 4em;
@@ -142,7 +139,6 @@ img {
     color: black;
 }
 img.weather {
-    border-radius: 100px;
     padding: .5em;
     width: 64px;
     height: auto;
@@ -176,11 +172,14 @@ main{
     grid-template-columns: 1fr;
     font-size: 0.9em;
 }
+.contact {
+    text-align: center;
+}
 footer{
     text-align: center;
     background-color:  rgb(4, 119, 119);
     color: white;
-    border-radius: 30px;
+    border-radius: 5px;
     margin: 0 auto;
     padding: 1em;
     max-width: 45em;
@@ -192,87 +191,3 @@ footer{
     clear: both;
   }
 
-
-
-
-
-@media only screen and (min-width: 35rem) {
-    html {
-        background-color: rgb(189, 185, 175);
-    }
-    
-    body {
-        max-width: 960px;
-        margin: 0 auto;
-        background-color: #a6d5d8;
-        padding: 5px 25px;
-    }
-    
-    h1,
-    h2,
-    h3 {
-        font-family: sans-serif;
-        font-size: 2em;
-    }
-    
-    
-    header {
-        padding: 0.5em;
-        text-align: center;
-        color: rgb(0, 6, 8);
-        background-color: rgb(4, 119, 119);
-        border-radius: 30px;
-    }
-    
-    footer {
-        padding: 1em;
-        color: rgb(0, 6, 8);
-        background-color: rgb(4, 119, 119);
-        border-radius: 30px;
-        text-align: center;
-        bottom: 0;
-    }
-    
-    p {
-        font-family: 'Work Sans', sans-serif;
-        font-size: 1.5em;
-    }
-    
-    nav {
-        border-radius: 30px;
-    }
-    
-    header {
-        padding: 0.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 5px;
-    }
-    
-    img {
-        max-width: 100%;
-    }
-    .site-name {
-        order: 2;
-    }
-    .motto {
-        font-size: 1.5em;
-        order: 3;
-    }
-    
-    main {
-        display: grid;
-        grid-template-rows: auto;
-    }
-    .total-image img{
-        width: 100%;
-        max-height: 200px;
-        object-fit: cover;
-    }
-     ul {
-        list-style-type: none;
-     }
-        
-    } 
