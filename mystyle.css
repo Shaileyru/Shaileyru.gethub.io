@@ -39,6 +39,9 @@ ul {
     font-size: small;
     list-style-type: none;
 }
+a {
+    font-size: small;
+}
 a:hover {
     color: blueviolet;
 }
