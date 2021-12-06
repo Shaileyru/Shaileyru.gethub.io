@@ -105,6 +105,11 @@ nav ul.hide {
     background-color: rgb(5, 136, 136);
     color: black;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .weatherSummery {
     display: flex;
     align-items: center;
