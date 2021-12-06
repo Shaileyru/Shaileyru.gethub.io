@@ -1,24 +1,12 @@
-// Responsive hamburger menu
-const hamButton = document.querySelector(".ham");
-const mainNav = document.querySelector(".navigation");
+const lastUpdatedTxt = "Last Updated: ";
+var lastUpdatedValue = document.lastModified;
 
-hamButton.addEventListener('click', () => {mainNav.classList.toggle('responsive')}, false);
+const lastModElement = document.getElementById("lastModified");
+lastModElement.outerHTML = lastUpdatedTxt + lastUpdatedValue
 
-window.onresize = () => {if (window.innerWidth > 760) mainNav.classList.remove('responsive')};
+const today = new Date();
+const year = today.getFullYear();
 
-//Banner on Fridays
-const currentDate = new Date();
-const weekday = new Array(7);
-weekday[5] = "friday";
-const day = weekday[now.getDay()];
-if (day == 'friday') {
-    document.querySelector(".banner").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. @city park pavilion"
-}
+const yearElement = document.getElementById("year")
 
-
-// Date in footer
-const datefield = document.querySelector("date");
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full" }).format(now);
-
-datefield.textContent = fulldate;
+yearElement.outerHTML = year
