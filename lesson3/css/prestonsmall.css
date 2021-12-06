@@ -163,6 +163,14 @@ img.weather {
     text-align: center;
     color: black;
 }
+main figure.total-image {
+    width: 100%;
+    margin: 0 0 0;
+
+}
+ main figure.total-image img {
+     width: 100%;
+ }
 .article {
     background-color: rgb(6, 67, 92);
     margin: 2em;
