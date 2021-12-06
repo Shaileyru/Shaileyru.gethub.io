@@ -103,6 +103,11 @@ nav ul.hide {
     background-color: rgb(5, 136, 136);
     color: black;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 img {
     max-width: 100%;
 }
@@ -186,9 +191,4 @@ footer{
     max-width: 50em;
     bottom: 0;
 }
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
