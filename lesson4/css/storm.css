@@ -195,18 +195,19 @@ form label.top, form div {
     padding-top: 1rem;
     color: rgb(16, 139, 187);
     font-size: 1em;
+    text-align: right;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px rgb(17, 16, 16);
+    border: solid 1px rgb(33, 199, 42);
     border-radius: 4px;
     padding: .75rem;
     color:white;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(241, 50, 146, 0.822);
 }
 form label.sbs {
     display: block;
