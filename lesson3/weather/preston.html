@@ -2,20 +2,21 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/prestonmedium.css">
-        <link rel="stylesheet" href="../css/prestonsmall.css">
-        <link rel="stylesheet" href="../css/prestonlarge.css">
+        <link rel="stylesheet" href="/lesson3/css/prestonlarge.css">
+        <link rel="stylesheet" href="/lesson3/css/prestonmedium.css">
+        <link rel="stylesheet" href="/lesson3/css/prestonsmall.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="News, weather and contact info for Preston">
         <title>Weather Preston</title>
     </head>
     <body>
-
+        <div id="banner">
+            <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </div>
+    
         <header>
             <picture>
-                <source media="(min-width:650px)" srcset="../image/large.pmg">
-                <source media="(min-width:650px)" srcset="../image/medium.jpg">
-                <img src="../image/1975135.png" alt="Logo Icon"> 
+                <img src="/lesson3/image/1975135.png" alt="Logo Icon"> 
             </picture>
             <section class="headings">
                 <h1>Get Your Weather</h1>
@@ -42,7 +43,7 @@
             <h2>Preston Idaho</h2>
 
                 <picture class="total-image">
-                        <img src="../image/mountain.jpg" alt="Mountain">
+                        <img src="/lesson3/image/mountain.jpg" alt="Mountain">
                 </picture>
 
             <div class="weatherSummary">
@@ -64,27 +65,27 @@
                     <div id="flex">
                         <div class="day">
                             <span class="weekDay">Monday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
+                            <img class="weather" src="/lesson3/image/sun.jpg" alt="sunny">
                             <span class="temp">50°F</span>
                         </div>
                         <div class="day">
                             <span class="weekDay">Tuesday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
+                            <img class="weather" src="/lesson3/image/sun.jpg" alt="sunny">
                             <span class="temp">55°F</span>
                         </div>
                         <div class="day">
                             <span class="weekDay">Wednesday</span>
-                            <img class="weather" src="../image/sun.jpg" alt="sunny">
+                            <img class="weather" src="/lesson3/image/sun.jpg" alt="sunny">
                             <span class="temp">45°F</span>
                         </div>
                         <div class="day">
                             <span class="weekDay">Thursday</span>
-                            <img class="weather" src="../image/rain.jpg" alt="rainy">
+                            <img class="weather" src="/lesson3/image/rain.jpg" alt="rainy">
                             <span class="temp">58°F</span>
                         </div>
                         <div class="day">
                             <span class="weekDay">Friday</span>
-                            <img class="weather" src="../image/rain.jpg" alt="rainy">
+                            <img class="weather" src="/lesson3/image/rain.jpg" alt="rainy">
                             <span class="temp">62°F</span>
                         </div>
                     </div>
@@ -92,7 +93,7 @@
                 
                 <div class="text">
                     <h2>News Article</h2>
-                    <img class="articleImg" src="../image/article.jpg" alt="EarthQuake"/>
+                    <img class="articleImg" src="/lesson3/image/article.jpg" alt="EarthQuake"/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius et sem mollis pulvinar. Donec semper eros eget dui placerat fringilla. Donec elit ante, faucibus id diam vitae, ornare congue orci. Cras justo justo, suscipit ac congue ac, varius a tortor. Fusce gravida massa eget massa tempor, vel malesuada massa luctus. Praesent sed orci commodo odio cursus gravida. Praesent mollis sapien aliquam, feugiat orci in, maximus ipsum. Nulla facilisi. Donec ullamcorper, mi non auctor ultrices, urna mi gravida ipsum, quis laoreet magna elit in massa. Pellentesque mollis velit at neque auctor, in pulvinar lacus dignissim. Curabitur congue dui quis libero fermentum ultricies. In a convallis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque non nulla ac velit tristique mattis quis quis urna. Integer ut est efficitur dui laoreet pretium nec sit amet nibh. Morbi ut ullamcorper magna. <a href="https://www.lipsum.com/feed/html">Full Article</a></p>
                 </div>
                 <div class="contact">
@@ -103,13 +104,11 @@
                 </div>
         </main>
         <footer>
-            <p id="copyright">&copy; <span id="dayweek"></span> <span id="day"></span> <span id="month"></span> <span
-                    id="year"></span><a href="https://www.byui.edu/online"> BYU Online
+            <p class="copyright">&copy; <span id="year"></span> | Shailey Kiki | Washington | <a href="https://www.byui.edu/online">BYU Online
                     Learning</a></p>
-            <p id="lastModified"></p>
+            <p id="lastModified" ></p>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="../js/index.js"></script>
-        <script src="../js/windchill.js"></script>
+    <script src="/lesson3/js/index.js"></script>
+        <script src="/lesson3/js/banner.js"></script>
     </body>
 </html>
