@@ -177,11 +177,6 @@ img.weather {
     align-items: baseline;
     margin: 2em;
 }
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 0.9em;
-}
 .contact {
     text-align: center;
 }
