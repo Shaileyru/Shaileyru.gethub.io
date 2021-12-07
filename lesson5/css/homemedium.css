@@ -1,102 +1,81 @@
-@media only screen and (min-width: 40em) {
+
+@media only screen and (min-width: 35rem) {
+    html {
+        background-color: rgb(189, 185, 175);
+    }
     
-
-    main {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        background-color: #a6d5d8;
+        padding: 5px 25px;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: sans-serif;
+        font-size: 2em;
+    }
+    
+    
+    header {
+        padding: 0.5em;
+        text-align: center;
+        color: rgb(0, 6, 8);
+        background-color: rgb(4, 119, 119);
+        border-radius: 30px;
+    }
+    
+    footer {
         padding: 1em;
+        color: rgb(0, 6, 8);
+        background-color: rgb(4, 119, 119);
+        border-radius: 30px;
+        text-align: center;
+        bottom: 0;
     }
-    html, body {
-        background-color: var(--background-color);
+    
+    p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5em;
     }
-    /* --------nav-------- */
+    
     nav {
-        background: var(--primary-color); /* Old browsers */
-        
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
-        
+        border-radius: 30px;
     }
-    nav button {display: none;}
-        
-    nav ul.hide {display: block;}
-        
-    nav ul {text-align: center;}
-        
-    nav ul li{
-        display:inline;
-    }
-    nav ul li a {
-        border: none;
-        padding: .6rem 1rem;
-        display: inline-block;
-        font-size: 15px;
-    }
-    h2 {
-        font-size: 15px;
-    }
-    .moto {
-        font-size: 1em;
-    }
-
-    .heading {
-        font-size: .8em;
-    }
-    br.responsive {
-        display: none;
-    }
-    .contact {
+    
+    header {
+        padding: 0.5rem;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
     }
-    .map {
-        display: inline;
-        border: 1px solid black;
-        margin: 1em 2em 1em 3em;
+    
+    img {
+        max-width: 100%;
     }
-    .location {
-        font-size: 12px;
-        padding: 3em;
-        align-self: center;
-        margin-left: 4em;
+    .site-name {
+        order: 2;
     }
-    section img {
-        width: auto;
+    .motto {
+        font-size: 1.5em;
+        order: 3;
     }
-    div.town-cards {
-        width: auto;
-    }
-    section {
+    
+    main {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
-    div.town-cards section{
-        height: 20rem;
+    .total-image img{
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
     }
-    section:nth-child(even) div {
-        grid-column: 2;
-    }
-    section:nth-child(even) p {
-        grid-column: 2;
-    }
-    section:nth-child(even) h1 {
-        grid-column: 2;
-        margin-bottom: .5rem;
-    }
-    section:nth-child(even) img {
-        grid-column: 1;
-        grid-row-start: 2;
-        grid-row-end: 5;
-        justify-self: center;
-    }
-    section:nth-child(odd) h1 {
-        margin-bottom: .5rem;
-    }
-    section:nth-child(odd) div, p, h1 {
-        grid-column: 1;
-    }
-    section:nth-child(odd) img {
-        grid-column: 2;
-        grid-row-start: 2;
-        grid-row-end: 5;
-        justify-self: center;
-    }
-
-
-}
+     ul {
+        list-style-type: none;
+     }
+        
+    } 
