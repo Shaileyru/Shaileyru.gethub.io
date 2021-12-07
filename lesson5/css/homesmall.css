@@ -141,6 +141,7 @@ ul {
 .contact {
     font-family: 'Work Sans', sans-serif;
     font-size: 1em;
+    text-align: center;
 }
 main figure.total-image {
     width: 100%;
