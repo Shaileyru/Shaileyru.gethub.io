@@ -98,11 +98,19 @@ nav ul.hide {
 .active,
 .btn:hover {
     background-color: rgb(5, 136, 136);
-    color: black;
+    color: white;
 }
 html {
-    background-color: white;
+    background-color: rgba(66, 63, 50, 0.884);
 }
+main figure.total-image {
+    width: 100%;
+    margin: 0 0 0;
+
+}
+ main figure.total-image img {
+     width: 100%;
+ }
 p {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2em;
