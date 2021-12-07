@@ -168,7 +168,8 @@ img.weather {
     text-align: center;
     color: black;
 }
-.article {
+
+.text {
     background-color: rgb(6, 67, 92);
     margin: 2em;
     padding: 1em;
@@ -178,7 +179,7 @@ img.weather {
     height: fit-content;
     margin: 2em;
 }
-.article p {
+.text p {
     align-items: baseline;
     margin: 2em;
 }
