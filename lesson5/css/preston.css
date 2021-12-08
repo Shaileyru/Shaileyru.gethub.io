@@ -168,7 +168,36 @@ img.weather {
     text-align: center;
     color: black;
 }
+.flex-col {
+    background-color: #D2DAD9;
+    width: 100%;
+    text-align: center;
+}
 
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+img.sun {
+    border-radius: 100px;
+    padding: 0.25rem;
+    width: 64px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 1em;
+    text-align: center;
+}
 .text {
     background-color: rgb(6, 67, 92);
     margin: 2em;

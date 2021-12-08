@@ -50,24 +50,49 @@
             <section class="weather-overlay">
                     <h3>Weather Summary</h3>
                 <table class="weathersummery">
-                    <p>Currently: <span id="current-condition"></span></p>
-                    <p>Current Temp: <span id="temperature"></span>°F</p>
-                    <p>High: <span id='high'></span>°F</p>
-                    <p>Wind Chill: <span id="windchill"></span></p>
-                    <p>Humidity: <span id="humidity"></span>%</p>
-                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                    <p>Currently: <span id="current-condition">Rainy</span></p>
+                    <p>Current Temp: <span id="temperature">65</span>°F</p>
+                    <p>High: <span id='high'>70</span>°F</p>
+                    <p>Wind Chill: <span id="windchill">N/A</span></p>
+                    <p>Humidity: <span id="humidity">15</span>%</p>
+                    <p>Wind Speed: <span id="windspeed">4.50</span> mph</p>
                 </table>
             </section>
 
-                <div>
-                    <br>
-                    <section  class="day-forcast">
-                        <h3>5 Day Forecast</h3>
-                        <div id="forecastGrid"></div>
-                    </section>
+            <div class=day-forcast>
+                <h2>
+                    Five Day Forecast
+                </h2>
+                <div id="flex">
+                    <div class="flex-col">
+                        <span class="col-head" id="name1"></span>
+                        <img class="sun" id="1-day" src="" alt="">
+                        <p><span class="data" id="day1"></span> °F</p>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head" id="name2"></span>
+                        <img class="sun" id="2-day" src="" alt="">
+                        <p><span class="data" id="day2"></span>°F</p>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head" id="name3"></span>
+                        <img class="sun" id="3-day" src="" alt="">
+                        <p><span class="data" id="day3"></span>°F</p>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head" id="name4"></span>
+                        <img class="sun" id="4-day" src="" alt="">
+                        <p><span class="data" id="day4"></span>°F</p>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head" id="name5"></span>
+                        <img class="sun" id="5-day" src="" alt="">
+                        <p><span class="data" id="day5"></span>°F</p>
+                    </div>
                 </div>
+            </div>
 
-                
+
                  <div class="text">
                     <h2>News Article</h2>
                     <img class="articleImg" src="/lesson3/image/article.jpg" alt="EarthQuake"/>
