@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/lesson4/css/storm.css">
+        <link rel="stylesheet" href="/lesson4/css/gallerymeduim.css">
+        <link rel="stylesheet" href="/lesson4/css/gallerylarge.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="News, weather and contact info for Preston">
+        <title>Weather Preston</title>
+    </head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="../image/1975135.png" alt="Logo Icon"> 
+        </picture>
+        <section class="headings">
+            <h1>Get Your Weather</h1>
+            <h2 class="motto">We're all about that Weather</h2>
+            <h3 class="site-name">www.GetYourWeather.com</h3>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primartNav" class="hide">
+            <li><a class="btn" href="/lesson5/html/index.html">Home</a></li>
+            <li><a class="btn" href="/lesson5/html/preston10.html">Preston</a></li>
+            <li><a class="btn" href="#">Soda Springs</a></li>
+            <li><a class="btn" href="#">Fish Haven</a></li>
+            <li><a class="btn active" href="/lesson4/weather/stormcenter.html">Storm Center</a></li>
+            <li><a class="btn" href="/lesson4/weather/gallery-7.html">Gallery</a></li>
+         </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center Application</h2>
+        <form method="get" action="thanks.html">
+            <fieldset name="applicant-info">
+                <legend>Applicant Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullname" pattern="[A-Za-z]{5,30}"
+                        title="5 to 30 letters" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code* <input type="number" name="zipCode" pattern="[0-9]{5}"
+                        title="5 digit number" required></label>
+
+            </fieldset>
+
+            <fieldset name="storm-info">
+                <legend>Storm Information</legend>
+
+                <label class="top">Storm Date<input type="date" name="completeDate"></label>
+
+                <label class="top" for="storm-type-choice">Storm Type
+                    <input list="stormType" id="storm-type-choice" name="storm-choice">
+
+                    <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+
+                <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+                </label>
+
+                <label class="top">Storm Region
+                    <select name="regions">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda">Soda Springs</option>
+                        <option value="fish">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset name="userDanger">
+                <legend>User in Danger Level</legend>
+                <div>Is the user in danger?</div>
+                <label class="sbs"><input type="radio" name="in-danger level" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="in-danger level" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="in-danger level" value="maybe"> Maybe</label>
+            </fieldset>
+
+            <fieldset name="additionalInfo">
+                <legend>Additional Information or Comments</legend>
+                <label>
+                    <textarea rows="5" cols="33"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Send Information" class="submitBtn">
+        </form>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; <span id="year"></span> | Shailey Kiki | Washington | <a href="https://www.byui.edu/online">BYU Online
+                Learning</a></p>
+        <p id="lastModified" ></p>
+    </footer>
+    <script src="/lesson4/js/index.js"></script>
+    <script src="/lesson4/js/date.js"></script>
+    <script src="/lesson4/js/script.js"></script>
+</body>
+</html>
