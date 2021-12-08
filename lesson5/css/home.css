@@ -242,3 +242,43 @@ label.flexly {
      padding: 0 0 ;
 }
 
+
+
+
+
+div.cards section {
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: var(--background-color);
+    border: 1px solid #4B7BF5;
+    margin: 1rem;
+}
+div.cards section h1 {
+    font-family: var(--heading-font);
+    margin-bottom: 1px;
+}
+div.cards section div {
+    font-family: var(--paragraph-font);
+    font-style: italic;
+    font-weight: bold;
+}
+div.cards section p {
+    font-family: var(--paragraph-font);
+}
+
+div.container p {
+    font-family: var(--paragraph-font);
+    font-style: italic;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    text-align: center;
+}

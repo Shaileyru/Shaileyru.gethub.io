@@ -77,4 +77,38 @@
         box-shadow:  0 0 50px rgb(168, 163, 163);
     }
 
+
+
+
+div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.cards section{
+    display: block;
+    height: auto;
+}
+div.cards section:nth-child(even) {
+    margin-left: 0;
+    margin-right: 0;
+}
+div.cards section:nth-child(1) img {
+    padding-top: 2rem;
+}
+div.cards section:nth-child(2) img {
+    padding-top: 2rem;
+}
+
+div.cards section img{
+    padding: 1rem;
+}
+div.cards section div{
+    font-size: .90rem;
+}
+.container {
+    grid-template-columns: repeat(3, 1fr);
+}
+div.card:hover {
+    box-shadow: 0 0 50px #333;
+}
 }

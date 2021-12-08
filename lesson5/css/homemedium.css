@@ -40,4 +40,48 @@
         grid-gap: 2em;
         padding: 20px;
     }
+
+
+
+
+    
+    div.cards {
+        width: auto;
+    }
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.cards section{
+        height: 20rem;
+    }
+    div.cards section:nth-child(even) div {
+        grid-column: 2;
+    }
+    div.cards section:nth-child(even) p {
+        grid-column: 2;
+    }
+    div.cards section:nth-child(even) h1 {
+        grid-column: 2;
+        margin-bottom: .5rem;
+    }
+    div.cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        justify-self: center;
+    }
+    div.cards section:nth-child(odd) h1 {
+        margin-bottom: .5rem;
+    }
+    div.cards section:nth-child(odd) div, p, h1 {
+        grid-column: 1;
+    }
+    div.cards section:nth-child(odd) img {
+        grid-column: 2;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        justify-self: center;
+    }
+
 }
