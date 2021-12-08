@@ -122,14 +122,6 @@ img {
     box-shadow: 0 .5em .5em 0 rgb(0, 0, 0);
     opacity: 0.8;
 }
-.weather-overlay {
-    justify-self: left;
-    top: .5em;
-    left: 3.5em;
-    padding: .5em;
-    background: radial-gradient(#f1f9f4, #E8EEF1);
-    border: 1px solid var(--accent2-color);
-}
 .right {
     text-align: right;
 }
@@ -169,7 +161,7 @@ img.weather {
     color: black;
 }
 .flex-col {
-    background-color: #D2DAD9;
+    background-color:rgb(5, 136, 136)9;
     width: 100%;
     text-align: center;
 }
@@ -179,7 +171,7 @@ img.weather {
     padding: 5px;
     border-bottom: 1px solid #333;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(6, 67, 92);
     font-size: 1em;
     font-family: 'Mochiy Pop One', sans-serif;
 }
