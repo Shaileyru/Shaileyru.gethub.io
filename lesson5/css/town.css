@@ -245,9 +245,9 @@ label.flexly {
 }
 
 .event-list{
-    background-color: var(--background-color);
+    background-color:rgb(5, 136, 136);
     margin: 1em;
-    padding: 1em;
+    padding: 5em;
 }
 .event-list ul li{
     font-family: var(--paragraph-font);
