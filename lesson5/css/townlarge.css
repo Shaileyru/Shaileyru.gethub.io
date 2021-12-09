@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 64rem) {
 
     nav button {
@@ -72,7 +71,8 @@
     .gallery-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }   
+        
+    }
     div figure img:hover, div figure figcaption:hover {
         box-shadow:  0 0 50px rgb(168, 163, 163);
     }
