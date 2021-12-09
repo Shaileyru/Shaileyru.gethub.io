@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem) {
     .weather-summary {
-        background: radial-gradient(#eee, #4567aa);
+        background: radial-gradient(rgb(6, 67, 92), rgb(5, 136, 136));
         padding: 1rem;
         opacity: 0.9;
     }
@@ -17,6 +17,7 @@
         font-family: 'Work Sans', sans-serif;
         font-size: 1.3em;
         padding: 0.5rem;
+        background-color: rgb(6, 67, 92);
     }
     .contact-info {
         padding: 0.5rem;

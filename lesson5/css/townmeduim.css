@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem) {
     .weather-summary {
-        background: radial-gradient(#eee, #4567aa);
+        background: radial-gradient(rgb(6, 67, 92), rgb(4, 119, 119));
         padding: 1rem;
         opacity: 0.9;
     }
