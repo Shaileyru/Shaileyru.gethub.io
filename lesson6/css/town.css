@@ -116,7 +116,9 @@ nav ul.hide {
     box-shadow: 0 .5em .5em 0 rgb(0, 0, 0);
     opacity: 0.8;
 }
-
+.text {
+    background-color: rgb(6, 67, 92);
+}
 .day {
     background-color: rgba(211, 200, 167, 0.63);
     width: 100%;
