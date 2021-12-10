@@ -12,10 +12,10 @@ header {
     text-align: center;
     background-color: rgb(255, 179, 68);
     color: black;
-    border-radius: 5px;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 5%;
-    max-width: 45em;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -28,15 +28,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: san-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgba(66, 63, 50, 0.884);
+    color: black;
+    background-color: rgb(255, 248, 229);
     height: 100%;
     text-align: center;
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
     flex-flow: column;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .contact {
     font-family: 'Work Sans', sans-serif;
@@ -48,6 +48,5 @@ footer {
     color: black;
     margin: 0 auto;
     padding: 1em;
-    max-width: 45em;
     bottom: 0;
 }
