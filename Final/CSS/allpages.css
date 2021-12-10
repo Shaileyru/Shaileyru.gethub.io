@@ -24,6 +24,24 @@ header {
     gap: 10px;
 
 }
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: san-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(66, 63, 50, 0.884);
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    border-radius: 5px;
+}
+.contact {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
 footer {
     text-align: center;
     background-color: rgb(255, 179, 68);
