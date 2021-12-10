@@ -42,8 +42,8 @@
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Zip Code* <input type="number" name="zipCode" pattern="[0-9]{5}"
                         title="5 digit number" required></label>
-                <label class="top">Home State or Country* <input type="from" name="home" placeholder="Country" required></label>
-                <label class="top">Cruise line <input  name="Cruise" placeholder="eoriheonvo" required></label>
+                <label class="top">Home State or Country* <input type="text" name="home" placeholder="Country" required></label>
+                <label class="top">Cruise line <input  name="text"></label>
 
             </fieldset>
 
@@ -55,8 +55,9 @@
             </fieldset>
 
             <fieldset>
+                 <legend>Locations</legend>
 
-                <label class="top">Location
+                <label class="top">
                     <select name="location">
                         <option value="">Select Location &#9662;</option>
                         <option value="centro">El Centro De Cozumel</option>
@@ -64,18 +65,19 @@
                         <option value="dropoff">Drop-off</option>
                     </select>
                 </label>
+                <label class="top"> Drop-off Address <input type="text" name="address"></label>
 
             </fieldset>
                 <label class="top" for="scooter-rentals">Scooter Request
                     <input list="Scootertype" id="scooter-rentals" name="Scooter Request">
 
                     <datalist id="scooter-rentals">
-                        <option value="Honda Metro">
-                        <option value="Honda Dio">
-                        <option value="Honda PCX150">
-                        <option value="Honda Pioneet ATV">
-                        <option value="Jeep Wrangler - 4door">
-                        <option value="Jeep Wrangler - 2door">
+                        <option value="honda">Honda Metro</option>
+                        <option value="honda">Honda Dio</option>
+                        <option value="honda">Honda PCX150</option>
+                        <option value="honda">Honda Pioneet ATV</option>
+                        <option value="jeep">Jeep Wrangler - 4door</option>
+                        <option value="jeep">Jeep Wrangler - 2door</option>
                     </datalist>
                 </label>
 
