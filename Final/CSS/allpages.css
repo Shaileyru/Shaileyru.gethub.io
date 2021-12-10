@@ -1,3 +1,8 @@
+/*rgb(0, 161, 157)
+rgb(255, 248, 229)
+rgb(255, 179, 68)
+rgb(224, 93, 93)*/
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -46,7 +51,15 @@ footer {
     text-align: center;
     background-color: rgb(255, 179, 68);
     color: black;
-    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 1em;
     bottom: 0;
 }
+
+
+
+
+
+
+/*css for reservation*/
