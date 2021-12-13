@@ -21,6 +21,7 @@ html {
 header {
     text-align: center;
     color: black;
+    background-color: rgb(255, 179, 68);
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -39,7 +40,7 @@ nav {
     width: 100%;
 }
 nav ul{
-    float: right;
+    float: center;
     margin-right: 30px;
 }
 nav ul li {
@@ -54,7 +55,7 @@ nav ul li a {
     padding: 17px;
 }
 a.active, a:hover { 
-    background-color: crimson;
+    background-color: rgb(88, 12, 12);
     transition: .5s;
 }
 body {
