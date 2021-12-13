@@ -37,7 +37,7 @@ header {
 nav {
     background: brown;
     height: 80px;
-    width: 100%;
+    max-width: 100%;
 }
 nav ul{
     float: center;
