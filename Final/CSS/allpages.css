@@ -89,7 +89,7 @@ footer {
 .border {
     width: 100px;
     height: 10px;
-    background: #38686A;
+    background: rgb(88, 12, 12);
     margin: 40px auto;
   }
   
@@ -124,7 +124,7 @@ footer {
   .contact-form-btn {
     float: right;
     border: 0;
-    background: #38686A;
+    background: rgb(88, 12, 12);
     color: white;
     padding: 12px 50px;
     border-radius: 20px;
@@ -132,5 +132,5 @@ footer {
     transition: 0.5s;
   }
   .contact-form-btn:hover {
-    background: #9AC2C5;
+    background: rgb(88, 12, 12);
   }
