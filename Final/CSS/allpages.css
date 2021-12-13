@@ -96,6 +96,8 @@ footer {
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
+    background-color: rgb(159, 180, 219);
+    max-width: 100%;
 }
 .threeDay::after{
     content: "\A\A";
@@ -127,9 +129,6 @@ footer {
     content: "\A";
     white-space: pre;
 }
-
-
-
 .right-align-box {
     padding: 1em;
     background-color: var(--secondary-color);
@@ -145,6 +144,7 @@ footer {
 .threeDay::before {
     content: "\A\A";
     white-space: pre;
+   
 }
 .right-align-box span {
     font-family: var(--paragraph-font);
