@@ -16,6 +16,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 header {
     text-align: center;
@@ -31,6 +32,30 @@ header {
     flex-wrap: wrap;
     gap: 10px;
 
+}
+nav {
+    background: brown;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 17px;
+}
+a.active, a:hover { 
+    background-color: crimson;
+    transition: .5s;
 }
 body {
     font-size: 16px;
