@@ -13,7 +13,7 @@ html {
     text-decoration: none;
     box-sizing: border-box;
 }
-.heading h1 {
+.header h1 {
     font-size: large;
 }
 header {
@@ -91,6 +91,9 @@ footer {
 }
 
 /*home page*/
+.text {
+    margin: 10px;
+}
 .threeDay {
     font-family: var(--paragraph-font);
     text-align: center;
