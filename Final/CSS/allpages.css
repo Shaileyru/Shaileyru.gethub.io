@@ -1,8 +1,3 @@
-/*rgb(0, 161, 157)
-rgb(255, 248, 229)
-rgb(255, 179, 68)
-rgb(224, 93, 93)*/
-
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -17,6 +12,9 @@ html {
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+}
+.heading h1 {
+    font-size: large;
 }
 header {
     text-align: center;
