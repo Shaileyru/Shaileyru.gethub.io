@@ -32,6 +32,11 @@ header {
     gap: 10px;
 
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 nav {
     background: brown;
     height: 80px;
@@ -73,6 +78,7 @@ body {
 .contact {
     font-family: 'Work Sans', sans-serif;
     font-size: 1em;
+    text-align: center;
 }
 footer {
     text-align: center;
@@ -83,6 +89,67 @@ footer {
     padding: 1em;
     bottom: 0;
 }
+
+/*home page*/
+.threeDay {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.threeDay::after{
+    content: "\A\A";
+    white-space: pre;
+}
+.threeDay section {
+    border: 1px solid var(--accent2-color);
+    background-color: var(--secondary-color);
+}
+#forecastGrid {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+}
+#forecastGrid h4 {
+    background-color: var(--background-color);
+    padding: .5em;
+    margin: 0;
+}
+#forecastGrid p {
+    padding: .5em;
+}
+.colweight {
+    color: black;
+    font-weight: bold;
+}
+.colweight::after{
+    content: "\A";
+    white-space: pre;
+}
+
+
+
+.right-align-box {
+    padding: 1em;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+    text-align: center;
+}
+.left-align-box {
+    padding: 1em;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+    text-align: center;
+}
+.threeDay::before {
+    content: "\A\A";
+    white-space: pre;
+}
+.right-align-box span {
+    font-family: var(--paragraph-font);
+}
+
 
 
 /*contact page8*/

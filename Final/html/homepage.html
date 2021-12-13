@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="/Final/CSS/allpages.css">
         <link rel="stylesheet" href="/Final/CSS/allpagesmedium.css">
         <link rel="stylesheet" href="/Final/CSS/allpageslarge.css">
-        <script src="https://kit.fomtawesome.com/ao76d05399.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon-16x16.png">
         <meta name="description" content="reservations, booking a car">
         <title>Home Page</title>
     </head>
@@ -14,6 +14,9 @@
 <body>
 
     <header>
+        <picture class="img"> 
+            <img src="/Final/images/logo.jpg" alt="Logo">
+        </picture>
         <section class="headings">
             <h1>Scoots</h1>
             <h2 class="motto">Where you going?</h2>
@@ -34,8 +37,32 @@
 
 
     <main>
-        <h1> GET EASY TRAVEL WITH SCOOTS!</h1>
+        <h1 class="title"> GET EASY TRAVEL WITH SCOOTS!</h1>
 
+        <div class="islandphoto">
+            <img src="/Final/images/island.jpg" alt="Island Beach">
+        </div>
+
+<br>
+
+        <div class="weather">
+            <section class="right-align-box">
+                <h2 class="weather-head">Current Weather</h2>
+                    <span>Currently: </span>
+                        <span class="colweight" id="current-cond"></span>
+                    <span>Temperature: </span>
+                        <span class="colweight">
+                        <span class="temp" id="temp-max"></span>&#176;F</span>
+                    <span>Humidity: </span>
+                        <span class="colweight">
+                        <span id="humid"></span>%</span>
+            </section>
+
+            <section class="threeDay">
+                <h2 class="weather-head">3 Day Forecast</h2>
+                <div id="forecastGrid"></div>
+            </section>
+        </div>
 
         <div class="rental-type">
             <h4>Types of Rentals</h4>
