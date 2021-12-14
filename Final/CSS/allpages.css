@@ -247,3 +247,17 @@ div.rental-melon {
   .contact-form-btn:hover {
     background: rgb(88, 12, 12);
   }
+.maps {
+    border: 3px solid var(--accent2-color);
+    max-width: 647px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: var(--secondary-color);;
+}
+p.first, p.second {
+    text-align: center;
+    padding: 1em;
+}
+.whatBox {
+    text-align: center;
+}
