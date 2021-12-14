@@ -156,7 +156,46 @@ footer {
     font-family: var(--paragraph-font);
 }
 
+/*Rent page*/
+table {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 2em;
+    padding-bottom: .25em;
+}
+th, td {
+    border: 1px solid black;
+    padding: .25em;
+}
 
+tr:nth-child(1) {
+    background-color: #335771;
+    color: white;
+}
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
+    background-color: #8EB3CC;
+}
+tr:nth-child(4), tr:nth-child(5), tr:nth-child(8), tr:nth-child(9), tr:nth-child(12), tr:nth-child(13) {
+    background-color: #C7D9E6;
+}
+tr.display {
+    border-top-style: hidden;
+}
+.rental-melon {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--accent2-color);
+    padding: 1em;
+}
+div.rental-melon {
+    max-width: 880px;
+}
 
 /*contact page8*/
 .border {
