@@ -219,7 +219,7 @@ div.rental-melon {
     margin: 40px auto;
   }
   
-  .reservationinfo{
+  .reservationinfo {
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
@@ -242,7 +242,7 @@ div.rental-melon {
     box-shadow: 0 0 10px 4px #34495e;
   }
   
-  .additionalinfo {
+  textarea.text {
     resize: none;
     height: 120px;
   }
@@ -257,11 +257,9 @@ div.rental-melon {
     cursor: pointer;
     transition: 0.5s;
   }
-  .submitbtn:hover {
+  .submitSbtn:hover {
     background: rgb(88, 12, 12);
   }
-
-
 
 
 
