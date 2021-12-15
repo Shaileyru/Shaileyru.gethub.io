@@ -2,13 +2,28 @@
     .heading {
         font-size: 100%;
     }
+
+    nav button {display: none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul li{
+        display:inline;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+        display: inline-block;
+        font-size: 25px;
+    }
+
+
+
     .title {
         font-size: 25px;
     }
     h2.weather-head{
-        font-size: 25px;
-    }
-    nav ul li a {
         font-size: 25px;
     }
 
