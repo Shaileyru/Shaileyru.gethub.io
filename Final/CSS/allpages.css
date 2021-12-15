@@ -189,15 +189,15 @@ th, td {
 }
 
 tr:nth-child(1) {
-    background-color: #4b6068;
-    color: white;
-}
-tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
     background-color: rgb(88, 12, 12);
     color: white;
 }
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
+    background-color: #3d5761;
+    color: white;
+}
 tr:nth-child(4), tr:nth-child(5), tr:nth-child(8), tr:nth-child(9), tr:nth-child(12), tr:nth-child(13) {
-    background-color: #d3e7e9;
+    background-color: #94bee0;
 }
 tr.display {
     border-top-style: hidden;
@@ -237,7 +237,7 @@ div.rental-melon {
     background: #4b6068;
     padding: 20px 40px;
     outline: none;
-    color: #d3e7e9;
+    color: white;
     transition: 0.5s;
   }
   .text:focus {
@@ -296,7 +296,6 @@ div.rental-melon {
     outline: none;
     color: white;
     transition: 0.5s;
-    border-radius: 5em;
   }
   .contact-form-text:focus {
     box-shadow: 0 0 10px 4px #34495e;
