@@ -38,14 +38,13 @@ header {
     clear: both;
 }
 nav {
-    background: brown;
     height: 80px;
     max-width: 100%;
     text-align: center;
 }
 nav ul{
     float: center;
-    margin-right: 30px;
+    margin: 15px;
 }
 nav ul li {
     display: inline-block;
@@ -54,7 +53,7 @@ nav ul li {
 }
 nav ul li a {
     color: black;
-    font-size: 17px;
+    font-size: 10px;
     text-transform: uppercase;
     padding: 17px;
 }
