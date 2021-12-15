@@ -30,13 +30,14 @@
          </ul>
     </nav>
 
+<br>
+
     <main>
         <h2>Make a Reservation</h2>
-        <form method="get" action="/Final/html/confirmation.html">
-            <div class="border"></div>
-            <div class="reservationsinfo">
-            <fieldset name="personsinfo">
-                <legend>Applicant Information</legend>
+        <div class="border"></div>
+        <form class="reservationsinfo" method="get" action="/Final/html/confirmation.html">
+        
+                <h4>Applicant Information</h4>
                 <label class="text">Full Name* <input type="text" name="fullname" pattern="[A-Za-z]{5,30}"
                         title="5 to 30 letters" required></label>
                 <label class="text">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
@@ -46,7 +47,6 @@
                 <label class="text">Home State or Country* <input type="text" name="home" placeholder="Country" required></label>
                 <label class="text">Cruise line <input  name="text"></label>
 
-            </fieldset>
 
             <fieldset name="dateinfo">
                 <legend>Date Information</legend>
@@ -92,7 +92,6 @@
             </fieldset>
 
             <input type="submit" value="Send Information" class="submitbtn">
-            </div>
         </form>
     </main>
 
