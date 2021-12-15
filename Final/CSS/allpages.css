@@ -187,14 +187,15 @@ th, td {
 }
 
 tr:nth-child(1) {
-    background-color: brown;
+    background-color: #4b6068;
     color: white;
 }
 tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
     background-color: rgb(88, 12, 12);
+    color: white;
 }
 tr:nth-child(4), tr:nth-child(5), tr:nth-child(8), tr:nth-child(9), tr:nth-child(12), tr:nth-child(13) {
-    background-color: #C7D9E6;
+    background-color: #d3e7e9;
 }
 tr.display {
     border-top-style: hidden;
@@ -231,10 +232,10 @@ div.rental-melon {
     box-sizing: border-box;
     margin: 15px 0;
     border: 0;
-    background: #24292B;
+    background: #4b6068;
     padding: 20px 40px;
     outline: none;
-    color: #9AC2C5;
+    color: #d3e7e9;
     transition: 0.5s;
   }
   .text:focus {
@@ -279,6 +280,7 @@ div.rental-melon {
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
+    border-radius: 10em;
   }
   
   .contact-form-text {
@@ -287,10 +289,10 @@ div.rental-melon {
     box-sizing: border-box;
     margin: 15px 0;
     border: 0;
-    background: #24292B;
+    background: #4b6068;
     padding: 20px 40px;
     outline: none;
-    color: #9AC2C5;
+    color: #d3e7e9;
     transition: 0.5s;
   }
   .contact-form-text:focus {
