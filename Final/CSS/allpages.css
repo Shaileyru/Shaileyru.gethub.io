@@ -209,6 +209,66 @@ div.rental-melon {
     max-width: 880px;
 }
 
+
+
+/*reservation*/
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(88, 12, 12);
+    margin: 40px auto;
+  }
+  
+  .reservationinfo{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 0;
+    background: #24292B;
+    padding: 20px 40px;
+    outline: none;
+    color: #9AC2C5;
+    transition: 0.5s;
+  }
+  .text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  
+  .additionalinfo {
+    resize: none;
+    height: 120px;
+  }
+  
+  .submitbtn {
+    float: right;
+    border: 0;
+    background: rgb(88, 12, 12);
+    color: white;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .submitbtn:hover {
+    background: rgb(88, 12, 12);
+  }
+
+
+
+
+
+
+
+
+
 /*contact page*/
 .border {
     width: 100px;

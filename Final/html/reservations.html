@@ -33,31 +33,32 @@
     <main>
         <h2>Make a Reservation</h2>
         <form method="get" action="/Final/html/confirmation.html">
-
+            <div class="border"></div>
+            <div class="reservationsinfo">
             <fieldset name="personsinfo">
                 <legend>Applicant Information</legend>
-                <label class="top">Full Name* <input type="text" name="fullname" pattern="[A-Za-z]{5,30}"
+                <label class="text">Full Name* <input type="text" name="fullname" pattern="[A-Za-z]{5,30}"
                         title="5 to 30 letters" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Zip Code* <input type="number" name="zipCode" pattern="[0-9]{5}"
+                <label class="text">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="text">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="text">Zip Code* <input type="number" name="zipCode" pattern="[0-9]{5}"
                         title="5 digit number" required></label>
-                <label class="top">Home State or Country* <input type="text" name="home" placeholder="Country" required></label>
-                <label class="top">Cruise line <input  name="text"></label>
+                <label class="text">Home State or Country* <input type="text" name="home" placeholder="Country" required></label>
+                <label class="text">Cruise line <input  name="text"></label>
 
             </fieldset>
 
             <fieldset name="dateinfo">
                 <legend>Date Information</legend>
 
-                <label class="top">Pickup Date<input type="date" name="completeDate"></label>
-                <label class="top">Drop-off Date<input type="date" name="completeDate"></label>
+                <label class="text">Pickup Date<input type="date" name="completeDate"></label>
+                <label class="text">Drop-off Date<input type="date" name="completeDate"></label>
             </fieldset>
 
             <fieldset>
                  <legend>Locations</legend>
 
-                <label class="top">
+                <label class="text">
                     <select name="location">
                         <option value="">Select Location &#9662;</option>
                         <option value="centro">El Centro De Cozumel</option>
@@ -65,13 +66,14 @@
                         <option value="dropoff">Drop-off</option>
                     </select>
                 </label>
-                <label class="top"> Drop-off Address <input type="text" name="address"></label>
+                <label class="text"> Drop-off Address <input type="text" name="address"></label>
 
             </fieldset>
-                <label class="top" for="scooter-rentals">Scooter Request
+                <label class="text" for="scooter-rentals">Scooter Request
                     <input list="Scootertype" id="scooter-rentals" name="Scooter Request">
 
                     <datalist id="scooter-rentals">
+                        <option value="">Select Rental &#9662;</option>
                         <option value="honda">Honda Metro</option>
                         <option value="honda">Honda Dio</option>
                         <option value="honda">Honda PCX150</option>
@@ -82,14 +84,15 @@
                 </label>
 
 
-            <fieldset name="additionalInfo">
+            <fieldset name="additionalinfo">
                 <legend>Additional Information or Comments</legend>
                 <label>
                     <textarea rows="5" cols="33"></textarea>
                 </label>
             </fieldset>
 
-            <input type="submit" value="Send Information" class="submitBtn">
+            <input type="submit" value="Send Information" class="submitbtn">
+            </div>
         </form>
     </main>
 
