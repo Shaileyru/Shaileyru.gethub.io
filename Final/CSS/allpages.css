@@ -41,6 +41,7 @@ nav {
     background: brown;
     height: 80px;
     max-width: 100%;
+    text-align: center;
 }
 nav ul{
     float: center;
@@ -92,11 +93,14 @@ footer {
 
 /*home page*/
 .title {
-    margin: 10px;
     background-color: rgb(255, 179, 68);
     max-width: 80%;
     text-align: center;
 
+}
+.islandphoto {
+    width: 100%;
+    height: auto;
 }
 .threeDay {
     font-family: var(--paragraph-font);
@@ -105,6 +109,7 @@ footer {
     font-size: 15px;
     background-color: rgb(191, 234, 245);
     max-width: 60%;
+    opacity: 6em;
 }
 .threeDay::after{
     content: "\A\A";
@@ -156,6 +161,12 @@ footer {
 .right-align-box span {
     font-family: var(--paragraph-font);
 }
+.rental-type, .moreinfo {
+    background-color: brown;
+}
+
+
+
 
 /*Rent page*/
 table {
@@ -198,7 +209,7 @@ div.rental-melon {
     max-width: 880px;
 }
 
-/*contact page8*/
+/*contact page*/
 .border {
     width: 100px;
     height: 10px;
