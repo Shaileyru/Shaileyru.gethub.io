@@ -1,7 +1,6 @@
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background-color: white
 }
 * {
     -moz-box-sizing: border-box;
@@ -13,8 +12,11 @@ html {
     text-decoration: none;
     box-sizing: border-box;
 }
-.header h1 {
-    font-size: large;
+.heading h1 {
+    font-size: small;
+}
+.heading h2 {
+    font-size: smaller;
 }
 header {
     text-align: center;
@@ -69,7 +71,7 @@ body {
     background-color: rgb(255, 248, 229);
     height: 100%;
     text-align: center;
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-flow: column;
@@ -280,7 +282,7 @@ div.rental-melon {
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
-    border-radius: 10em;
+   
   }
   
   .contact-form-text {
@@ -294,6 +296,7 @@ div.rental-melon {
     outline: none;
     color: #d3e7e9;
     transition: 0.5s;
+    border-radius: 10em;
   }
   .contact-form-text:focus {
     box-shadow: 0 0 10px 4px #34495e;

@@ -1,6 +1,10 @@
 @media only screen and (min-width: 80em) {
-    .heading {
-        font-size: 100%;
+    .heading h1 {
+        font-size: large;
+    }
+
+    .motto {
+        font-size: medium;
     }
 
     nav button {display: none;}
