@@ -187,6 +187,7 @@ table {
     margin: 0 auto;
     border: 3px solid black;
     border-collapse: collapse;
+    max-width: 80%;
 }
 caption {
     font-weight: bold;
