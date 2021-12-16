@@ -21,7 +21,11 @@
         display: inline-block;
         font-size: 25px;
     }
-
+    .home-rental img {
+        width: 80%;
+        height:auto;
+        margin-left: 20%;
+    }
 
 
     .title {
