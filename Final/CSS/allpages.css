@@ -226,6 +226,7 @@ div.rental-melon {
     grid-template-columns: 1fr;
     margin-left: 0;
     max-width: 60%;
+    text-align: right;
 }
 .more-rental-info {
     background-color:#A9BA88;
