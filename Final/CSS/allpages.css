@@ -12,10 +12,10 @@ html {
     text-decoration: none;
     box-sizing: border-box;
 }
-.headings h1 {
+.head-name {
     font-size: small;
 }
-.headings h2 {
+.motto {
     font-size: smaller;
 }
 header {

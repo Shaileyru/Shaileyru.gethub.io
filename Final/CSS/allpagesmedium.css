@@ -26,11 +26,11 @@
 
 
     .motto {
-        font-size: 1em;
+        font-size: small;
     }
 
-    .headings {
-        font-size: 30px;
+    .head-name {
+        font-size: medium;
     }
     .title {
         font-size: 22px;
