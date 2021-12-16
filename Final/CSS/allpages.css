@@ -338,6 +338,15 @@ div.rental-melon {
     padding: 1em;
     background-color: var(--secondary-color);;
 }
+.first, .second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.first {
+    background-color: #A9BA88;
+}
+
 p.first, p.second {
     text-align: center;
     padding: 1em;
