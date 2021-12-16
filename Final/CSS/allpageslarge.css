@@ -1,5 +1,5 @@
 @media only screen and (min-width: 80em) {
-    .heading h1 {
+    .headings h1 {
         font-size: large;
     }
 
@@ -46,5 +46,21 @@
     h2.weather-head{
         font-size: 25px;
     }
-
+/*tours page*/
+.right-align-box {
+    background-color: #6D6F73;
+    padding: 20px;
+}
+.left-align-box {
+    background-color: #D9C6BF;
+    padding: 20px;
+}
+.attraction-best {
+    background-color: #6D6F73;
+    padding: 20px;
+}
+.attraction-lesson {
+    background-color: #D9C6BF;
+    padding: 20px;
+}
 }

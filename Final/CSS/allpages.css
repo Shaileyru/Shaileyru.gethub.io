@@ -12,10 +12,10 @@ html {
     text-decoration: none;
     box-sizing: border-box;
 }
-.heading h1 {
+.headings h1 {
     font-size: small;
 }
-.heading h2 {
+.headings h2 {
     font-size: smaller;
 }
 header {
