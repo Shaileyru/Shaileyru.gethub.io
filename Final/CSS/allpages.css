@@ -227,9 +227,10 @@ div.rental-melon {
 }
 .more-rental-info {
     background-color:#A9BA88;
-    color: #f6f6f6;
+    color: black;
     padding: 20px;
     margin: 20px;
+    text-align: center;
 }
 
 
