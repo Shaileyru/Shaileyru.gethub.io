@@ -105,40 +105,6 @@ footer {
     overflow: hidden;
     text-align: center;
 }
-.image-containter {
-    width: 2400px;
-    height: 600px;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-}
-.slider-image {
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-.button-containter {
-    top: -20px;
-    position: relative;
-}
-.slider-button {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
-    background: rgb(88, 12, 12);
-}
-#slider-image-1:target ~ .image-container {
-    left: 0px;
-}
-#slider-image-2:target ~ .image-container {
-    left: -800px;
-}
-#slider-image-3:target ~ .image-container {
-    left: -16px;
-}
 .threeDay {
     font-family: var(--paragraph-font);
     text-align: center;
