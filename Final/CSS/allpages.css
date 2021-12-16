@@ -75,7 +75,6 @@ body {
     margin: 0 auto;
     display: flex;
     flex-flow: column;
-    border-radius: 20px;
 }
 .contact {
     font-family: 'Work Sans', sans-serif;
@@ -344,10 +343,14 @@ div.rental-melon {
 .first {
     background-color: #A9BA88;
 }
+.second {
+    background-color: #D9C6BF;
+}
 
 p.first, p.second {
-    text-align: center;
-    padding: 1em;
+    text-align: right;
+    padding: 20px;
+    font: 30px;
 }
 .whatBox {
     text-align: center;
