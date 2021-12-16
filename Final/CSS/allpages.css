@@ -94,14 +94,26 @@ footer {
 
 /*home page*/
 .title {
-    background-color: rgb(255, 179, 68);
-    max-width: 80%;
+    background-color: rgb(236, 210, 138);
     text-align: center;
-
 }
-.islandphoto {
-    width: 100%;
-    height: auto;
+.islandphotos {
+    width: 800px;
+    height: 600px;
+}
+.image-containter {
+    width: 2400px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+.slider-image {
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 .threeDay {
     font-family: var(--paragraph-font);
