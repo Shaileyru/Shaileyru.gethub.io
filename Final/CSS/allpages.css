@@ -21,7 +21,7 @@ html {
 header {
     text-align: center;
     color: black;
-    background-color: rgb(255, 179, 68);
+    background-color: #A9BA88;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -68,7 +68,7 @@ body {
     line-height: 1.5;
     font-family: san-serif;
     color: black;
-    background-color: rgb(255, 248, 229);
+    background-color: #F6F0E7;
     height: 100%;
     text-align: center;
     max-width: 100%;
@@ -84,7 +84,7 @@ body {
 }
 footer {
     text-align: center;
-    background-color: rgb(255, 179, 68);
+    background-color: #A9BA88;
     color: black;
     margin-left: 20px;
     margin-right: 20px;
@@ -94,7 +94,7 @@ footer {
 
 /*home page*/
 .title {
-    background-color: rgb(236, 210, 138);
+    background-color: #A9BA88;
     text-align: center;
 }
 .islandphotos {
@@ -199,7 +199,7 @@ footer {
     font-family: var(--paragraph-font);
 }
 .rental-type, .moreinfo {
-    background-color: brown;
+    background-color: #A9BA88;
 }
 
 
@@ -225,7 +225,7 @@ th, td {
 }
 
 tr:nth-child(1) {
-    background-color: rgb(88, 12, 12);
+    background-color: #A9BA88;
     color: white;
 }
 tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
@@ -253,7 +253,7 @@ div.rental-melon {
 .border {
     width: 100px;
     height: 10px;
-    background: rgb(88, 12, 12);
+    background: #A9BA88;
     margin: 40px auto;
   }
   
@@ -288,7 +288,7 @@ div.rental-melon {
   .submitbtn {
     float: right;
     border: 0;
-    background: rgb(88, 12, 12);
+    background: #A9BA88;
     color: white;
     padding: 12px 50px;
     border-radius: 20px;
@@ -296,7 +296,7 @@ div.rental-melon {
     transition: 0.5s;
   }
   .submitSbtn:hover {
-    background: rgb(88, 12, 12);
+    background: #A9BA88);
   }
 
 
@@ -309,7 +309,7 @@ div.rental-melon {
 .border {
     width: 100px;
     height: 10px;
-    background: rgb(88, 12, 12);
+    background: #A9BA88;
     margin: 40px auto;
   }
   
@@ -345,7 +345,7 @@ div.rental-melon {
   .contact-form-btn {
     float: right;
     border: 0;
-    background: rgb(88, 12, 12);
+    background: #A9BA88;
     color: white;
     padding: 12px 50px;
     border-radius: 20px;
@@ -353,7 +353,7 @@ div.rental-melon {
     transition: 0.5s;
   }
   .contact-form-btn:hover {
-    background: rgb(88, 12, 12);
+    background: #A9BA88;
   }
 .maps {
     border: 3px solid var(--accent2-color);
