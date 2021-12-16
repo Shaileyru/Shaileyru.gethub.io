@@ -162,8 +162,7 @@ footer {
     font-family: var(--paragraph-font);
 }
 div.moreinfo {
-    text-align: right;
-    padding: 20px 20px;
+    text-align: center;
     background-color: #A9BA88;
     max-width: 70%;
 
