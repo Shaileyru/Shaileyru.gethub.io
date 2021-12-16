@@ -60,7 +60,7 @@ nav ul li a {
     padding: 17px;
 }
 a.active, a:hover { 
-    background-color: rgb(88, 12, 12);
+    background-color: #6D6F73;
     transition: .5s;
 }
 body {
@@ -195,11 +195,11 @@ tr:nth-child(1) {
     color: white;
 }
 tr:nth-child(2), tr:nth-child(3), tr:nth-child(6), tr:nth-child(7), tr:nth-child(10), tr:nth-child(11) {
-    background-color: #3d5761;
+    background-color: #6D6F73;
     color: white;
 }
 tr:nth-child(4), tr:nth-child(5), tr:nth-child(8), tr:nth-child(9), tr:nth-child(12), tr:nth-child(13) {
-    background-color: #94bee0;
+    background-color: #D9C6BF;
 }
 tr.display {
     border-top-style: hidden;
@@ -236,7 +236,7 @@ div.rental-melon {
     box-sizing: border-box;
     margin: 15px 0;
     border: 0;
-    background: #4b6068;
+    background: #6D6F73;
     padding: 20px 40px;
     outline: none;
     color: white;
@@ -293,7 +293,7 @@ div.rental-melon {
     box-sizing: border-box;
     margin: 15px 0;
     border: 0;
-    background: #4b6068;
+    background: #6D6F73;
     padding: 20px 40px;
     outline: none;
     color: white;
