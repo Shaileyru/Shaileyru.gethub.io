@@ -46,6 +46,16 @@
     h2.weather-head{
         font-size: 25px;
     }
+    div.moreinfo {
+        text-align: center;
+        background-color: #A9BA88;
+        max-width: 80%;
+    }
+    .more-rental-info {
+        text-align: center;
+    }
+    
+    
 /*tours page*/
 .right-align-box {
     background-color: #6D6F73;
