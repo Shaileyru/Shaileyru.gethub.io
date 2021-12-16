@@ -306,7 +306,7 @@ div.rental-melon {
     background: #6D6F73;
     padding: 20px 40px;
     outline: none;
-    color: white;
+    color: black;
     transition: 0.5s;
   }
   .contact-form-text:focus {
@@ -331,6 +331,7 @@ div.rental-melon {
   .contact-form-btn:hover {
     background: #A9BA88;
   }
+.
 .maps {
     border: 3px solid var(--accent2-color);
     max-width: 647px;
