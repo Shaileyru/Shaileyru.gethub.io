@@ -288,7 +288,6 @@ div.rental-melon {
     background: #A9BA88;
     margin: 40px auto;
   }
-  
   .contact-form {
     max-width: 600px;
     margin: auto;
@@ -296,7 +295,6 @@ div.rental-melon {
     overflow: hidden;
    
   }
-  
   .contact-form-text {
     display: block;
     width: 100%;
@@ -331,7 +329,6 @@ div.rental-melon {
   .contact-form-btn:hover {
     background: #A9BA88;
   }
-.
 .maps {
     border: 3px solid var(--accent2-color);
     max-width: 647px;
