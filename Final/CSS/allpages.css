@@ -223,8 +223,9 @@ div.rental-melon {
 }
 .rental {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 5%;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    max-width: 60%;
 }
 .more-rental-info {
     background-color:#A9BA88;
