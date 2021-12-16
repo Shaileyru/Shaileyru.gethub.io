@@ -179,6 +179,10 @@ div.moreinfo {
 }
 
 
+
+
+
+
 /*Rent page*/
 table {
     font-family: var(--paragraph-font);
@@ -235,6 +239,8 @@ div.rental-melon {
 
 
 
+
+
 /*reservation*/
 .border {
     width: 100px;
@@ -286,8 +292,19 @@ div.rental-melon {
   }
 
 
-
-
+/*tours page*/
+.right-align-box {
+    background-color:#A9BA88 ;
+}
+.left-align-box {
+    background-color: #D9C6BF;
+}
+.attraction-best {
+    background-color: #6D6F73;
+}
+.attraction-lesson {
+    background-color: #A9BA88;
+}
 
 
 
